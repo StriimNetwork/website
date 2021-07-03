@@ -1,0 +1,79 @@
+/* define fonts */
+
+@font-face {
+    font-family: wii-bold;
+    src: url('assets/fonts/contb.ttf');
+}
+
+@font-face {
+    font-family: wii;
+    src: url('assets/fonts/contm.ttf');
+}
+
+@font-face {
+    font-family: wii-light;
+    src: url('assets/fonts/contl.ttf');
+}
+
+/* end */
+
+/* element changes */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('assets/img/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-shadow: 0 0 3px #000;
+}
+
+a {
+    font-family: wii;
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* end */
+
+/* classes */
+
+.index-wrap {
+    height: 100%;
+    line-height: .7em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.index h1, h2 {
+    font-family: wii-bold;
+}
+
+.index h3, h4, h5, h6 {
+    font-family: wii-light;
+}
+
+.index p {
+    font-family: wii;
+}
+
+.index {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+/* end */
