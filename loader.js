@@ -14,7 +14,6 @@ function initalizeotherscripts(){
   $.getScript('https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js', function() {
     console.log("https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js was loaded")
   });
-  document.title = "XConnect24"
   initalizethecss();
   return console.log("multiplexers/001/css/multiplexmii.css was loaded");
 };
