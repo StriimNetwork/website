@@ -18,7 +18,7 @@ function initalizeotherscripts(){
   return console.log("multiplexers/001/css/multiplexmii.css was loaded");
 };
 function initalizethecss(){
-  return $('body').append('<link rel="stylesheet" href="multiplexers/001/css/multiplexmii.css" type="text/css"></div></body><div class="d" id="sessionseed" hidden>'+Math.random().toString(36).substring(2)+'</div></html>');
+  return $('body').append('<link rel=\"stylesheet\" href=\"multiplexers/001/css/multiplexmii.css\" type=\"text/css\"></div></body>Session Seed: '+Math.random().toString(36).substring(2)+'</html>');
 } 
 function r(f) {
   /in/.test(document.readyState) ? setTimeout('r(' + f + ')', 9) : f()
