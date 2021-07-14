@@ -1,6 +1,6 @@
-r(function(){initalizemii(););
+r(function(){initalizemii()});
 function initalizemii(){
-  var s = document.createElement(\"script\");
+  var s = document.createElement("script");
   s.src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
   s.onload = function(e){initalizeotherscripts()};
   document.head.appendChild(s);
