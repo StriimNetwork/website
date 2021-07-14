@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <div class="a">
+      <h1 style="background-color:Chartreuse;">
+         <div id="mydivclass_secn">
+         <div id="div_data_secn">
+            <p id="kappa"></p>
+         </div>
+      </h1>
+      <h2 style="background-color:LightYellow;">
+         <div id="div_data_main">
+         <div id="div_data_secn">
+            <p id="kappa"></p>
+         </div>
+      </h2>
+      <ul style="background-color:Sienna;">
+         <div id="divclass_main">
+         <li>
+            <div id="div_data_secn">
+            <p id="kappa"></p>
+         </li>
+         <li>
+            <div id="div_data_secn">
+            <p id="kappa"></p>
+         </li>
+         <li>
+            <div id="div_data_secn">
+            <p id="kappa"></p>
+         </li>
+         <li>
+            <div id="div_data_secn">
+               <p id="kappa"></p>
+         </li>
+         </div>
+      </ul>
+      <h2 style="background-color:LightYellow;">
+         <div id="div_data_secn">
+         <p id="kappa"></p>
+      </h2>
+      <ul style="background-color:Sienna;">
+         <div id="divclass_main">
+         <li>
+            <div id="div_data_secn">
+            <p id="kappa"></p>
+         </li>
+         <li>
+            <div id="div_data_secn">
+            <p id="kappa"></p>
+            <ol style="background-color:MediumPurple;">
+               <div id="divclass_secn">
+               <li>
+                  <div id="div_data_secn">
+                  <p id="kappa"></p>
+               </li>
+               <li>
+                  <div id="div_data_secn">
+                  <p id="kappa"></p>
+               </li>
+               <li>
+                  <div id="div_data_secn">
+                  <p id="kappa"></p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <div id="div_data_secn">
+            <p id="kappa"></p>
+            <ol style="background-color:MediumPurple;">
+               <div id="divclass_secn">
+               <li>
+                  <div id="div_data_secn">
+                     <p id="kappa"></p>
+               </li>
+               <li>
+               <div id="div_data_secn">
+               <p id="kappa"></p>
+               </li>
+               <li>
+               <div id="div_data_secn">
+               <p id="kappa"></p>
+               </li>
+               </div>
+            </ol>
+         </li>
+         </div>
+      </ul>
+      <style>
+      html {
+      font-size: 0.1px;
+      }
+      div.a {
+      background-color: coral;
+      }
+      body {
+      font-size: 0.1px;
+      }
+      h1 {
+      font-size: 0.1px;
+      }
+      ul {
+      font-size: 0.1px;
+      }
+      ol {
+      font-size: 0.1px;
+      }
+      h2 {
+      font-size: 0.1px;
+      }
+      #mydivclass_main {
+      background-color: LightBlue;
+      }
+      #mydivclass_secn {
+      background-color: Chartreuse;
+      }
+      #divclass_main {
+      background-color: Sienna;
+      }
+      #divclass_secn {
+      background-color: MediumPurple;
+      }
+      #div_data_main {
+      background-color: LightYellow;
+      }
+      #div_data_secn {
+      font-size: 0.1px;
+      }
+      </style>
+      </div>
+   </head>
+   <body>
+      <div class="a">
+         <div id="mydivclass_main">
+            <p id="kappa"></p>
+            <p>
+               Quack! 
+            </p>
+         </div>
+      </div>
+   </body>
+   <footer>
+   <div class="a">
+   <script>
+	   	// This javascript code utilizes a modified version of https://github.com/jfriend00/docReady/, and license is between ==SOF== and ==EOF==, so as to
+	   	// speak and/or say, and wherefore and/or therefore the license goes as follows:
+	   	// ==SOF==
+	   	// The MIT License (MIT)
+		// 
+		// Copyright (c) 2014, John Friend
+		// 
+		// Permission is hereby granted, free of charge, to any person obtaining a copy
+		// of this software and associated documentation files (the "Software"), to deal
+		// in the Software without restriction, including without limitation the rights
+		// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+		// copies of the Software, and to permit persons to whom the Software is
+		// furnished to do so, subject to the following conditions:
+		// 
+		// The above copyright notice and this permission notice shall be included in all
+		// copies or substantial portions of the Software.
+		// 
+		// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+		// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+		// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+		// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+		// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+		// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+		// SOFTWARE.
+	   	// ==EOF==
+		function r(f) {
+		  /in/.test(document.readyState) ? setTimeout('r(' + f + ')', 9) : f()
+		}
+		r(function() {
+		  const msg_data_main = "msg data main";
+		  const msg_data_secn = "msg data secn";
+		  const moredata_main = 'DOMContentLoaded';
+		  const moredata_secn = "onload";
+		  const more_msg_data_main = "callback for docReady(fn) must be a function";
+		  const more_msg_data_secn = "onreadystatechange";
+		  const data_bytes_main = 0;
+		  const data_bytes_secn = "DOMContentLoaded";
+		  const _final_data_main_ = 1;
+		  const _final_data_secn_ = "undefined";
+		  console.log(msg_data_main);
+		  console.log(moredata_main);
+		  console.log(moredata_secn);
+		  console.log(more_msg_data_main);
+		  console.log(more_msg_data_secn);
+		  console.log(data_bytes_main);
+		  console.log(data_bytes_secn);
+		  console.log(msg_data_secn);
+		  window.onload = bootloader(undefined, moredata_main, moredata_secn, more_msg_data_main, more_msg_data_secn, data_bytes_main, data_bytes_secn, _final_data_main_);
+		  return _final_data_secn_;
+		});
+
+		function bootloader(undefined, moredata_main, moredata_secn, more_msg_data_main, more_msg_data_secn, data_bytes_main, data_bytes_secn, _final_data_main_) {
+		  const step_msg_main = "msg step main";
+		  const step_msg_secn = "msg step secn";
+		  const misc_data_main = "msg";
+		  const var_main = "docReady";
+		  const var_secn = false;
+		  const variable_data_main = true;
+		  const variable_data_secn = "load";
+		  const var_data_main = "complete";
+		  const var_data_secn = "function";
+		  console.log(step_msg_main);
+		  console.log(misc_data_main);
+		  console.log(var_main);
+		  console.log(var_secn);
+		  console.log(variable_data_main);
+		  console.log(variable_data_secn);
+		  console.log(var_data_main);
+		  console.log(var_data_secn);
+		  console.log(step_msg_secn);
+		  (function(funcName, baseObj) {
+		    // The public function name defaults to window.docReady
+		    // but you can pass in your own object and own function name and those will be used
+		    // if you want to put them in a different namespace
+		    funcName = funcName || var_main;
+		    baseObj = baseObj || window;
+		    var readyList = [];
+		    var readyFired = var_secn;
+		    var readyEventHandlersInstalled = var_secn;
+		    // call this when the document is ready
+		    // this function protects itself against being called more than once
+		    function ready() {
+		      if (!readyFired) {
+		        // this must be set to variable_data_main before we start calling callbacks
+		        readyFired = variable_data_main;
+		        for (var i = data_bytes_main; i < readyList.length; i++) {
+		          // if a callback here happens to add new ready handlers,
+		          // the docReady() function will see that it already fired
+		          // and will schedule the callback to run right after
+		          // this event loop finishes so all handlers will still execute
+		          // in order and no new ones will be added to the readyList
+		          // while we are processing the list
+		          readyList[i].fn.call(window, readyList[i].ctx);
+		        };
+		        // allow any closures held by these functions to free
+		        readyList = [];
+		      };
+		    };
+
+		    function readyStateChange() {
+		      if (document.readyState === var_data_main) {
+		        ready();
+		      };
+		    };
+		    // This is the one public interface
+		    // docReady(fn, context);
+		    // the context argument is optional - if present, it will be passed
+		    // as an argument to the callback
+		    baseObj[funcName] = function(callback, context) {
+		      if (typeof callback !== var_data_secn) {
+		        throw new TypeError(more_msg_data_main);
+		      };
+		      // if ready has already fired, then just schedule the callback
+		      // to fire asynchronously, but right away
+		      if (readyFired) {
+		        setTimeout(function() {
+		          callback(context);
+		        }, _final_data_main_);
+		        return;
+		      } else {
+		        // add the function and context to the list
+		        readyList.push({
+		          fn: callback,
+		          ctx: context
+		        });
+		      };
+		      // if document already ready to go, schedule the ready function to run
+		      if (document.readyState === var_data_main) {
+		        setTimeout(ready, _final_data_main_);
+		      } else if (!readyEventHandlersInstalled) {
+		        // otherwise if we don't have event handlers installed, install them
+		        if (document.addEventListener) {
+		          // first choice is DOMContentLoaded event
+		          document.addEventListener(data_bytes_secn, ready, var_secn);
+		          // backup is window load event
+		          window.addEventListener(variable_data_secn, ready, var_secn);
+		        } else {
+		          // must be IE
+		          document.attachEvent(more_msg_data_secn, readyStateChange);
+		          window.attachEvent(moredata_secn, ready);
+		        }
+		        readyEventHandlersInstalled = variable_data_main;
+		      };
+		    };
+		  })(var_main, window);
+		  docReady(function() {
+		    const misc_data_secn = "undefined";
+		    console.log(misc_data_secn);
+		    _auto_load_(misc_data_secn, undefined);
+		    return misc_data_secn;
+		  });
+		  return undefined;
+		};
+
+		function _auto_load_(misc_data_secn, undefined) {
+		  const data_main = "mydivclass_main";
+		  const data_secn = "kappa";
+		  const data0 = "mydivclass_secn";
+		  const data1 = "divclass_main";
+		  const data2 = "divclass_secn";
+		  const data3 = "div_data_main";
+		  const data4 = "div_data_secn";
+		  const data5 = "LightBlue";
+		  const data6 = "Chartreuse";
+		  const data7 = "Sienna";
+		  const data8 = "MediumPurple";
+		  const data9 = "LightYellow";
+		  const _msg_0_ = "msg 0";
+		  const _msg_1_ = "msg 1";
+		  const _msg_2_ = "msg 2";
+		  const _msg_3_ = "msg 3";
+		  const _msg_4_ = "msg 4";
+		  const _msg_5_ = "msg 5";
+		  const _msg_6_ = "msg 6";
+		  const _msg_7_ = "msg 7";
+		  const _msg_8_ = "msg 8";
+		  const _msg_9_ = "msg 9";
+		  const msg_main = "msg code main";
+		  const msg_secn = "msg code secn";
+		  const nothing_main = misc_data_secn;
+		  const nothing_secn = misc_data_secn;
+		  const empty_main = misc_data_secn;
+		  const empty_secn = misc_data_secn;
+		  const nodata_main = misc_data_secn;
+		  const nodata_secn = misc_data_secn;
+		  _p_id_main_(data_secn, data4, msg_main, msg_secn, nothing_main, undefined);
+		  body_func(data_main, data5, _msg_1_, _msg_7_, nothing_secn, undefined);
+		  h1_func(data0, data6, _msg_2_, _msg_8_, empty_main, undefined);
+		  ul_func(data1, data7, _msg_3_, _msg_9_, empty_secn, undefined);
+		  ol_func(data2, data8, _msg_4_, _msg_5_, nodata_main, undefined);
+		  h2_func(data3, data9, _msg_0_, _msg_6_, nodata_secn, undefined);
+		  return misc_data_secn;
+		}
+
+		function _p_id_main_(data_secn, data4, msg_main, msg_secn, nothing_main, undefined) {
+		  console.log(msg_main);
+		  console.log(msg_secn);
+		  console.log(nothing_main);
+		  console.log(undefined);
+		  console.log("undefined");
+		  return document.getElementById(data4).innerHTML = data_secn;
+		}
+
+		function body_func(data_main, data5, _msg_1_, _msg_7_, nothing_secn, undefined) {
+		  console.log(_msg_1_);
+		  console.log(_msg_7_);
+		  console.log(nothing_secn);
+		  console.log(undefined);
+		  console.log("undefined");
+		  return document.getElementById(data_main).style.backgroundColor = data5;
+		}
+
+		function h1_func(data0, data6, _msg_2_, _msg_8_, empty_main, undefined) {
+		  console.log(_msg_2_);
+		  console.log(_msg_8_);
+		  console.log(empty_main);
+		  console.log(undefined);
+		  console.log("undefined");
+		  return document.getElementById(data0).style.backgroundColor = data6;
+		}
+
+		function ul_func(data1, data7, _msg_3_, _msg_9_, empty_secn, undefined) {
+		  console.log(_msg_3_);
+		  console.log(_msg_9_);
+		  console.log(empty_secn);
+		  console.log(undefined);
+		  console.log("undefined");
+		  return document.getElementById(data1).style.backgroundColor = data7;
+		}
+
+		function ol_func(data2, data8, _msg_4_, _msg_5_, nodata_main, undefined) {
+		  console.log(_msg_4_);
+		  console.log(_msg_5_);
+		  console.log(nodata_main);
+		  console.log(undefined);
+		  console.log("undefined");
+		  return document.getElementById(data2).style.backgroundColor = data8;
+		}
+
+		function h2_func(data3, data9, _msg_0_, _msg_6_, nodata_secn, undefined) {
+		  console.log(_msg_0_);
+		  console.log(_msg_6_);
+		  console.log(nodata_secn);
+		  console.log(undefined);
+		  console.log("undefined");
+		  return document.getElementById(data3).style.backgroundColor = data9;
+		}
+		</script>
+	</div>
+</footer>
+</html>
