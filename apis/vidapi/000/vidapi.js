@@ -7,10 +7,10 @@ function pausebuttoninitalizer(nothing) {
 	if(video.paused) {
 		video.play();
 		btn.innerHTML = "Pause";
-		return nothing
+		return Math.random().toString(36).substring(2);
 	} else {
 		video.pause();
 		btn.innerHTML = "Play";
-		return nothing
+		return Math.random().toString(36).substring(2);
 	}
 }
