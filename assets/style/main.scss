@@ -236,6 +236,14 @@ container {
 	padding: 2em;
 }
 
+.nav-link:hover a {
+	text-decoration: none;
+}
+
+.nav-underline:hover {
+	text-decoration: underline;
+}
+
 .section {
 	padding: 2em;
 }
@@ -356,21 +364,5 @@ container {
 @media only screen and (max-width: 500px) {
 	.socials {
 		display: block;
-	}
-
-	.discord-embed-wrapper {
-		position: relative;
-		height: 500;
-		padding-left: 1em;
-		padding-right: 1em;
-		z-index: -2;
-	
-		iframe {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-		}
 	}
 }
