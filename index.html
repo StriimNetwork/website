@@ -1,21 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kirby TV Channel Revival</title>
-    <link rel="stylesheet" href="https://proicons.netlify.app/css/icons.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="index-wrap">
-        <div class="index">
-            <img src="assets/img/logo.png">
-            <h1>Kirby TV Channel Revival</h1>
-            <p>coming soon...</p>
-            <!-- <iframe src="https://canary.discord.com/widget?id=860626015688327168&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe> -->
+---
+title: Home
+layout: default
+---
+
+<div class="index-wrapper">
+    <div class="index center">
+        <div class="title">
+            <p class="title-text">Striim Network</p>
+            <p class="title-subtext o50">Wii streaming services, next level</p>
+        </div>
+        <button class="guide-link" onclick="document.location='//wii.guide/kirby-tv'"><i class="fas fa-download"></i> Show me how</button>
+    </div>
+</div>
+
+<div class="section center">
+    <h1><i class="fas fa-server"></i> Available Services</h1>
+    <table class="services-table">
+        <tr>
+            <th>Service</th>
+            <th>State</th>
+        </tr>
+        <tr>
+            <td>Kirby TV Channel</td>
+            <td class="public-beta">Public Beta</td>
+        </tr>
+        <tr>
+            <td>YouTube</td>
+            <td class="in-development">In Development</td>
+        </tr>
+    </table>
+</div>
+
+<div class="faq section center">
+    <h1><i class="fas fa-question-circle"></i> Frequently Asked Questions</h1>
+    <div class="faq-text">
+        <b><span class="o75">Q:</span> "Will this work on my region?"</b>
+        <br>
+        <p><span class="o75">A:</span> Depends. Currently it works only on USA and PAL consoles.</p>
+        <br>
+        <b><span class="o75">Q:</span> "What happens when the show ends?"</b>
+        <br>
+        <p><span class="o75">A:</span> Don't fear &mdash; the show restarts from episode 1.</p>
+        <br>
+        <b><span class="o75">Q:</span> "I can't use the patcher! Where can I get a pre-patched WAD?"</b>
+        <br>
+        <p><span class="o75">A:</span> You can get the pre-patched WAD <a href="assets/wads/kirby-tv.wad">right here</a>.</p>
+    </div>
+</div>
+
+<div class="socials section center">
+    <div class="col">
+        <h1><i class="fab fa-discord"></i> Discord</h1>
+        <div class="discord-embed-wrapper">
+        <iframe src="https://discord.com/widget?id=860626015688327168&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
         </div>
     </div>
-</body>
-</html>
+    <div class="col">
+        <h1><i class="fab fa-twitter"></i> Twitter</h1>
+        <a class="twitter-timeline" data-lang="en" data-width="350" data-height="500" data-dnt="true" data-theme="dark" href="https://twitter.com/StriimNetwork?ref_src=twsrc%5Etfw">Tweets by StriimNetwork</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+    </div>
+</div>
